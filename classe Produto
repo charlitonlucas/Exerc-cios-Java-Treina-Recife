@@ -1,0 +1,18 @@
+package exercicios;
+
+import java.util.Date;
+
+//implementação da classe Produto
+public class Produto {
+	
+		Integer id;
+		String nome;
+		String descricao;
+		Date validade;
+		
+		//implementação do método getCode().	
+		void getCode() {
+			System.out.println("A carga máxima é de"+ id);
+		}
+
+}
