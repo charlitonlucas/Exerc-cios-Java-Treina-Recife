@@ -1,0 +1,23 @@
+package exercicios;
+
+//implementação da classe Transportes
+public class Transportes {
+	
+	Integer id;
+	Integer ano;
+	String modelo;
+	Double carga_maxima;
+	Double potencia;
+	
+	//implementação dos métodos consumo,leiaModelo e gravaModelo.	
+	void consumo() {
+		System.out.println("A carga máxima é de"+ carga_maxima);
+	}
+	void leiaModelo() {
+		System.out.println("O modelo do veículo é "+ modelo);
+	}
+	void gravaModelo(){
+		System.out.println("modelo gravado");
+	}
+
+}
